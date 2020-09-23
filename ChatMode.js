@@ -30,4 +30,9 @@
             document.querySelector('[role="main"]').style.display="none";
             chatMode=true;}
         })
+    
+    var modifiedChatWindow = document.createElement('style');
+    modifiedChatWindow.type = "text/css";
+    modifiedChatWindow.innerHTML = '.kwja4m9d {height: 1000px !important;} .jbcpqwzg {width: 450px !important;}';
+    document.querySelector('head').appendChild(modifiedChatWindow);
 })();
